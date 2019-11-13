@@ -4,13 +4,19 @@ This talk should present in a simple and easy to digest form how we ported Nova 
 
 # Chapters
 
+## 0 - something about Vulkan and OpenGL
+* Piece of history ?
+* Driver responsibities
+* Debug layers and debugging
+* Shape of the API
+
 ## I - Building abstract model of OpenGL and Vulkan APIs 
 
 * What is state machine ? 
 * OpenGL as a global state machine 
 * Vulkan as a local named states 
 
-## II - Idea of exection model for OpenGL and Vulkan APIs
+## II - Idea of execution model for OpenGL and Vulkan APIs
 
 * OpenGL uses swap and executes whole "command chain"
 * Vulkan uses idea of Command Buffer 

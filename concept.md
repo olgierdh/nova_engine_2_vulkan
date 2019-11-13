@@ -8,6 +8,7 @@ This talk should present in a simple and easy to digest form how we ported Nova 
 * Piece of history ?
 * Driver responsibities
 * Debug layers and debugging
+  * Verification of states by OpenGL vs Vulkan debug layers
 * Shape of the API
 
 ## I - Building abstract model of OpenGL and Vulkan APIs 

@@ -43,3 +43,6 @@ This talk should present in a simple and easy to digest form how we ported Nova 
 ## The End
 Thank you
 
+# Description in Polish
+Podczas tego wykladu opowiem o portowaniu naszego silnika "Nova" na nowoczesne API graficzne jakim jest Vulkan. Przyjrzymy się temu co wyróżnia Vulkana i co sprawia że warto używać tego API. Opowiem również o kilku implementacyjnych szczegółach oraz decyzjach architektonicznych które umożliwiły nam uruchamiać silnik używając obu API graficznych i przygotować "Novę" do portowania na pozostałe platformy. Znajomość OpenGLa ani Vulkana nie jest wymagana, postaram się zbudować minimalną bazę wiedzy niezbędną do zrozumienia reszty wykładu.
+

@@ -92,7 +92,7 @@ OpenGL
 
 @snap[east span-50 text-black text-bold text-07]
 Vulkan
-![PLATE](assets/state_based_approach.png)
+![PLATE](assets/vulkan_states.png)
 @snapend
 
 ---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)

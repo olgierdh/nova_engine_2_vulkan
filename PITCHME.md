@@ -211,13 +211,14 @@ struct gl_cmd_recorder
         glClearColor(state_a_info.color);
         ...
     }
+    database& m_data;
 };
 
 void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
 {
     // instant execution
     gl_command_buffer_info* info = m_command_buffers.get( cb );
-    detail::gl_cmd_recorder recorder{info, m_data};
+    detail::gl_cmd_recorder recorder{m_data};
     for ( uint32 i = 0; i < info->count; ++i )
         visit( recorder, info->cmds[i] );
 }

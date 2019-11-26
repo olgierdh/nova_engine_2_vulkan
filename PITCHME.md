@@ -100,7 +100,16 @@ Vulkan
 The "State Based" approach
 @snapend
 
-@snap[span-100]
+@snap[west span-50 text-white text-bold text-07]
+@ul[list-square-bullets]
+- Use OpenGL like API
+- Each state change is registered in a temporary buffer
+- Whenever the state changes fills all required fields or draw/flush encountered gather data and form Vulkan named states
+- Verify if Vulkan named state already exist by using entity field hash function
+@ulend
+@snapend
+
+@snap[east span-50]
 ![PLATE](assets/state_based_approach.png)
 @snapend
 

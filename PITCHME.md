@@ -240,7 +240,7 @@ Implementation - Visitor
 @snapend
 
 @snap[middlepoint span-100]
-[Visitor Implementation](https://godbolt.org/z/sA01si)
+[Visitor Implementation](https://godbolt.org/z/KBMg4w)
 @snapend
 
 ---?color=#444444 50%

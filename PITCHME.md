@@ -82,6 +82,22 @@ vkEndCommandBuffer(m_cmdBufs[i]);
 
 ---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
 @snap[span-100 text-pink text-13 text-bold]
+Let's build our "Abstraction"
+
+@snap[west span-50 text-white text-bold text-07]
+OpenGL
+![PLATE](assets/state_based_approach.png)
+@snapend
+
+@snap[east span-50 text-black text-bold text-07]
+Vulkan
+![PLATE](assets/state_based_approach.png)
+@snapend
+
+@snapend
+
+---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
+@snap[span-100 text-pink text-13 text-bold]
 The "State Based" approach
 @snapend
 

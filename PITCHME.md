@@ -165,7 +165,7 @@ class abstract_device
 Implementation - Command buffer
 @snapend
 
-@snap[middlepoint span-100 text-07]
+@snap[middlepoint span-100 text-09]
 ```cpp
 struct cmd_start_recording {};
 struct cmd_end_recording {};

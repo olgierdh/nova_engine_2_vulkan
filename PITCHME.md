@@ -28,7 +28,7 @@ OpenGL
 @ul[list-square-bullets]
 - OpenGL 1.0 year 1992
 - Driver responsibility and overhead: high
-- API: bunch of getters and setters for global state
+- API: getters and setters for global state
 - Debugging: get-last-error approach, verification during execution
 @ulend
 @snapend
@@ -38,7 +38,7 @@ Vulkan
 @ul[list-square-bullets]
 - Vulkan 1.0 years 2015/2016
 - Driver responsibility and overhead: low
-- API: still functions but operates on entities such as device, queue or command buffer
+- API: still functions but operates on entities such as device, queue or command buffer ( entity based )
 - Dubugging: special debug layers, verification only through debug layers
 @ulend
 @snapend
@@ -80,27 +80,16 @@ vkEndCommandBuffer(m_cmdBufs[i]);
 ```
 @snapend
 
----
-@snap[north span-100]
-### How about metaprogamming ?
+---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
+@snap[span-100 text-pink text-13 text-bold]
+The "State Based" approach
 @snapend
 
-@snap[west span-50]
-#### The bad
-@ul
-- Code complexity
-- Error reporting
-- Compile times
-@ulend
+@snap[span-100]
+@code[uml rawcode zoom-15](src/state_approach.puml)
 @snapend
 
-@snap[east span-50]
-#### The good
-@ul
-- Type safety
-- Code correctness
-- More optimizations
-@ulend
+@snap[span-100]
 @snapend
 
 ---

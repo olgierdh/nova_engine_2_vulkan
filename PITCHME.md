@@ -45,11 +45,11 @@ Vulkan
 
 ---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
 
-@snap[middlepoint span-100 text-pink text-13 text-bold]
+@snap[span-100 text-pink text-13 text-bold]
 API comparition
 @snapend
 
-@snap[north-west span-100 text-white text-bold text-08]
+@snap[span-100 text-white text-bold text-08]
 OpenGL
 ```cpp
 glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
@@ -57,7 +57,7 @@ glClear(GL_COLOR_BUFFER_BIT);
 ```
 @snapend
 
-@snap[south-east span-100 text-black text-bold text-06]
+@snap[span-100 text-black text-bold text-06]
 Vulkan
 ```cpp
 VkCommandBufferBeginInfo beginInfo = {};

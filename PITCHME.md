@@ -1,8 +1,8 @@
-@snap[north span-100 text-blue text-10 text-bold]
+@snap[north span-100 text-blue text-10 text-bold bg-black]
 A story about porting in-house 3D engine to Vulkan
 @snapend
 
-@snap[west span-40 text-blue text-bold]
+@snap[west span-40 text-black text-bold]
 Olgierd Humeńczuk
 @snapend
 

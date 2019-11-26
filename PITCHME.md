@@ -86,7 +86,7 @@ The "State Based" approach
 @snapend
 
 @snap[span-100]
-@uml[span-100 bg-white](src/state_approach.puml)
+![PLATE](assets/state_based_approach.png)
 @snapend
 
 @snap[span-100]

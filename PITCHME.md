@@ -45,13 +45,21 @@ Vulkan
 
 @snap[south-west span-50 text-white text-bold text-07]
 ```cpp
-glSetColor4f(0.5f, 0.5f, 0.5f, 0.5f);
+glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+glClear(GL_COLOR_BUFFER_BIT);
 ```
 @snapend
 
 @snap[south-east span-50 text-black text-bold text-07]
 ```cpp
-glSetColor4f(0.5f, 0.5f, 0.5f, 0.5f);
+VkCommandBufferBeginInfo beginInfo = {};
+beginInfo.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
+beginInfo.flags = VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT;
+VkClearColorValue clearColor = { 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f };
+VkClearValue clearValue = {};
+clearValue.color = clearColor;
+VkResult res = vkBeginCommandBuffer(m_cmdBufs[i], &beginInfo);
+vkEndCommandBuffer(m_cmdBufs[i]);
 ```
 @snapend
 

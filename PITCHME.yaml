@@ -1,1 +1,2 @@
 theme-override : assets/custom.css
+highlight : monokai

@@ -9,8 +9,8 @@ Olgierd Humeńczuk
 @snapend
 
 @snap[east span-60 text-07 text-gray]
-#### BIO
-@ul[list-square-bullets text-black](false)
+BIO
+@ul[list-square-bullets text-silver](false)
 - Have been programming for past 18 years
 - Have created multiple game engines including software rendering
 - Have been working on high performance networking server and clients in C and C++

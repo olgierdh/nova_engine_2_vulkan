@@ -70,6 +70,11 @@ VkClearColorValue clearColor
 
 VkClearValue clearValue = {clearColor};
 
+VkImageSubresourceRange imageRange = {};
+imageRange.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
+imageRange.levelCount = 1;
+imageRange.layerCount = 1;
+
 vkBeginCommandBuffer(m_cmdBufs[i], &beginInfo);
 vkCmdClearColorImage(m_cmdBufs[i], m_images[i],
     VK_IMAGE_LAYOUT_GENERAL, &clearColor, 1, &imageRange);

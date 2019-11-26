@@ -60,24 +60,22 @@ glClear(GL_COLOR_BUFFER_BIT);
 @snap[span-100 text-right text-black text-bold text-08]
 Vulkan
 ```cpp
-VkCommandBufferBeginInfo beginInfo = {};
+VkCommandBufferBeginInfo begin_info = {};
 
-beginInfo.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
-beginInfo.flags = VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT;
+begin_info.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
+begin_info.flags = VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT;
 
-VkClearColorValue clearColor
-    = { 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f };
+VkClearValue clear_value
+    = {VkClearColorValu{ 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f }};
 
-VkClearValue clearValue = {clearColor};
+VkImageSubresourceRange image_range = {};
+image_range.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
+image_range.levelCount = 1;
+image_range.layerCount = 1;
 
-VkImageSubresourceRange imageRange = {};
-imageRange.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
-imageRange.levelCount = 1;
-imageRange.layerCount = 1;
-
-vkBeginCommandBuffer(m_cmdBufs[i], &beginInfo);
+vkBeginCommandBuffer(m_cmdBufs[i], &begin_info);
 vkCmdClearColorImage(m_cmdBufs[i], m_images[i],
-    VK_IMAGE_LAYOUT_GENERAL, &clearColor, 1, &imageRange);
+    VK_IMAGE_LAYOUT_GENERAL, &clear_value, 1, &image_range);
 vkEndCommandBuffer(m_cmdBufs[i]);
 ```
 @snapend

@@ -1,5 +1,5 @@
-@snap[north span-100]
-# A story about porting in-house 3D engine to Vulkan
+@snap[north span-100 text-blue text-20]
+A story about porting in-house 3D engine to Vulkan
 @snapend
 
 @snap[west span-40 text-blue]

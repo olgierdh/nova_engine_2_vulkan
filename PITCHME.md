@@ -201,7 +201,8 @@ Implementation - Execution OpenGL
 ```cpp
 struct gl_cmd_recorder
 {
-    template < typename T > void operator()( const T& /*cmd*/ ) { NV_ASSERT_ALWAYS( false, "Unimplemented!" ); }
+    template < typename T > void operator()( const T& /*cmd*/ )
+    { NV_ASSERT_ALWAYS( false, "Unimplemented!" ); }
     inline void operator()( const nv::gfx_cmds::cmd_start_recording& /*cmd*/ ) { }
     inline void operator()( const nv::gfx_cmds::cmd_end_recording& /*cmd*/ ) { }
     inline void operator()( const nv::gfx_cmds::cmd_set_state_a& cmd )

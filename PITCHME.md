@@ -193,6 +193,38 @@ private:
 @snapend
 
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)
+@snap[north span-100 text-pink text-13 text-bold]
+Implementation - Execution OpenGL
+@snapend
+
+@snap[middlepoint span-100 text-08]
+```cpp
+struct gl_cmd_recorder
+{
+    template < typename T > void operator()( const T& /*cmd*/ ) { NV_ASSERT_ALWAYS( false, "Unimplemented!" ); }
+    inline void operator()( const nv::gfx_cmds::cmd_start_recording& /*cmd*/ ) { }
+    inline void operator()( const nv::gfx_cmds::cmd_end_recording& /*cmd*/ ) { }
+    inline void operator()( const nv::gfx_cmds::cmd_set_state_a& cmd )
+    {
+        const gl_set_state_a_info* state_a_info = m_data.get( cmd.h );
+        glClearColor(state_a_info.color);
+        ...
+    }
+};
+
+void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
+{
+    // instant execution
+    gl_command_buffer_info* info = m_command_buffers.get( cb );
+    detail::gl_cmd_recorder recorder{info, m_data};
+    for ( uint32 i = 0; i < info->count; ++i )
+        visit( recorder, info->cmds[i] );
+}
+```
+@snapend
+
+
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]
 Thank you!

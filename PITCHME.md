@@ -133,6 +133,15 @@ The "Command Buffer" approach
 
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 @snap[north span-100 text-pink text-13 text-bold]
+Dilemma
+@snapend
+
+@snap[middlepoint span-10]
+![PLATE](assets/fit.png)
+@snapend
+
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
+@snap[north span-100 text-pink text-13 text-bold]
 Implementation - Abstract device
 @snapend
 

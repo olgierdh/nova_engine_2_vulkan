@@ -43,7 +43,7 @@ Vulkan
 @ulend
 @snapend
 
----?color=linear-gradient(92deg, black 50%, silver 50%)
+---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]
 API comparition

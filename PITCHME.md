@@ -96,7 +96,7 @@ Vulkan
 @snapend
 
 ---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
-@snap[span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-pink text-13 text-bold]
 The "State Based" approach
 @snapend
 
@@ -111,9 +111,6 @@ The "State Based" approach
 
 @snap[east span-50]
 ![PLATE](assets/state_based_approach.png)
-@snapend
-
-@snap[span-100]
 @snapend
 
 ---

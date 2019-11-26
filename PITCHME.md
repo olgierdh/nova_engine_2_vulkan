@@ -1,6 +1,6 @@
 ---?color=linear-gradient(175deg, black 80%, silver 20%)
 
-@snap[north span-100 text-blue text-13 text-white bg-black]
+@snap[north span-100 text-blue text-13 text-pink bg-black]
 A story about porting in-house 3D engine to Vulkan
 @snapend
 

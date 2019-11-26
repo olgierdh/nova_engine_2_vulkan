@@ -17,7 +17,7 @@ BIO
 @ulend
 @snapend
 
----?color=linear-gradient(92deg, #888888 50%, silver 50%)
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]
 About OpenGL and Vulkan
@@ -43,7 +43,7 @@ Vulkan
 @ulend
 @snapend
 
----?color=linear-gradient(92deg, #888888 50%, silver 50%)
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 
 @snap[span-100 text-pink text-13 text-bold]
 API comparition
@@ -80,7 +80,7 @@ vkEndCommandBuffer(m_cmdBufs[i]);
 ```
 @snapend
 
----?color=linear-gradient(92deg, #888888 50%, silver 50%)
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 @snap[north span-100 text-pink text-13 text-bold]
 Let's build our "Abstraction"
 @snapend
@@ -95,7 +95,7 @@ Vulkan
 ![PLATE](assets/vulkan_states.png)
 @snapend
 
----?color=linear-gradient(92deg, #888888 50%, silver 50%)
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 @snap[north span-100 text-pink text-13 text-bold]
 The "State Based" approach
 @snapend
@@ -113,7 +113,7 @@ The "State Based" approach
 ![PLATE](assets/state_based_approach.png)
 @snapend
 
----?color=linear-gradient(92deg, #888888 50%, silver 50%)
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 @snap[north span-100 text-pink text-13 text-bold]
 The "Command Buffer" approach
 @snapend

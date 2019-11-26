@@ -1,2 +1,2 @@
 theme-override : assets/custom.css
-highlight : tomorrow
+highlight : solarized-light

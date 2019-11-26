@@ -225,6 +225,14 @@ void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
 ```
 @snapend
 
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
+@snap[north span-100 text-pink text-13 text-bold]
+Implementation - Visitor
+@snapend
+
+@snap[middlepoint span-100]
+[Visitor Implementation](https://godbolt.org/z/sA01si)
+@snapend
 
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 

@@ -45,7 +45,7 @@ Vulkan
 
 ---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
 
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[middlepoint span-100 text-pink text-13 text-bold]
 API comparition
 @snapend
 

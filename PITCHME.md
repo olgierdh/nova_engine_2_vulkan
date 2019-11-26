@@ -4,11 +4,11 @@
 A story about porting in-house 3D engine to Vulkan
 @snapend
 
-@snap[west span-40 text-black text-bold]
+@snap[west span-40 text-blue text-bold]
 Olgierd Humeńczuk
 @snapend
 
-@snap[east span-60 text-07]
+@snap[east span-60 text-07 text-silver]
 #### BIO
 @ul[list-square-bullets text-black](false)
 - Have been programming for past 18 years

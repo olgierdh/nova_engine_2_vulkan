@@ -8,7 +8,7 @@ A story about porting in-house 3D engine to Vulkan
 Olgierd Humeńczuk
 @snapend
 
-@snap[east span-60 text-07 text-silver]
+@snap[east span-60 text-07 text-gray]
 #### BIO
 @ul[list-square-bullets text-black](false)
 - Have been programming for past 18 years

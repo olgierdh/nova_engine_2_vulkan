@@ -27,8 +27,9 @@ About OpenGL and Vulkan
 OpenGL
 @ul[list-square-bullets]
 - OpenGL 1.0 year 1992
-- Reasons for having templates
-- DRY ( Do not Repeat Yourself )
+- Driver responsibility: high
+- Simple API
+- Global state machine
 @ulend
 @snapend
 

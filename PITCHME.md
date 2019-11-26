@@ -66,7 +66,7 @@ begin_info.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
 begin_info.flags = VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT;
 
 VkClearValue clear_value
-    = {VkClearColorValu{ 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f }};
+    = {VkClearColorValue{1.0f, 0.0f, 0.0f, 1.0f}};
 
 VkImageSubresourceRange image_range = {};
 image_range.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;

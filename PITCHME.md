@@ -113,6 +113,24 @@ The "State Based" approach
 ![PLATE](assets/state_based_approach.png)
 @snapend
 
+---?color=linear-gradient(92deg, #AAAAAA 50%, silver 50%)
+@snap[north span-100 text-pink text-13 text-bold]
+The "Command Buffer" approach
+@snapend
+
+@snap[west span-50 text-white text-bold text-07]
+@ul[list-square-bullets](false)
+- Use Vulkan like API
+- Form Vulkan like named states
+- Use command buffer to prepare graphics commands like in Vulkan
+- OpenGL implementation can execute commands directly from the memory
+@ulend
+@snapend
+
+@snap[east span-50]
+![PLATE](assets/cmdbuf_based_approach.png)
+@snapend
+
 ---
 
 ### Language

@@ -17,16 +17,16 @@ BIO
 @ulend
 @snapend
 
----?color=linear-gradient(95deg, black 50%, silver 50%)
+---?color=linear-gradient(93deg, black 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13]
-A little bit about OpenGL and Vulkan
+About OpenGL and Vulkan
 @snapend
 
-@snap[west span-50 text-blue text-bold]
+@snap[west span-50 text-white text-bold]
 OpenGL
-@ul[list-square-bullets](false)
-- Derived from C language
+@ul[list-square-bullets]
+- OpenGL 1.0 year 1992
 - Reasons for having templates
 - DRY ( Do not Repeat Yourself )
 @ulend
@@ -34,7 +34,7 @@ OpenGL
 
 @snap[east span-50 text-black text-bold]
 Vulkan
-@ul[list-square-bullets](false)
+@ul[list-square-bullets]
 - Derived from C language
 - Reasons for having templates
 - DRY ( Do not Repeat Yourself )

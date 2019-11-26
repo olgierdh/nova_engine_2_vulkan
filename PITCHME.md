@@ -87,7 +87,7 @@ Let's build our "Abstraction"
 
 @snap[west span-50 text-white text-bold text-07]
 OpenGL
-![PLATE](assets/state_based_approach.png)
+![PLATE](assets/opengl_states.png)
 @snapend
 
 @snap[east span-50 text-black text-bold text-07]

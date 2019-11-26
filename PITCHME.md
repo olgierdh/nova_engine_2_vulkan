@@ -61,12 +61,19 @@ glClear(GL_COLOR_BUFFER_BIT);
 Vulkan
 ```cpp
 VkCommandBufferBeginInfo beginInfo = {};
+
 beginInfo.sType = VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO;
 beginInfo.flags = VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT;
-VkClearColorValue clearColor = { 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f };
+
+VkClearColorValue clearColor
+    = { 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f };
+
 VkClearValue clearValue = {};
 clearValue.color = clearColor;
-VkResult res = vkBeginCommandBuffer(m_cmdBufs[i], &beginInfo);
+
+vkBeginCommandBuffer(m_cmdBufs[i], &beginInfo);
+vkCmdClearColorImage(m_cmdBufs[i], m_images[i],
+    VK_IMAGE_LAYOUT_GENERAL, &clearColor, 1, &imageRange);
 vkEndCommandBuffer(m_cmdBufs[i]);
 ```
 @snapend

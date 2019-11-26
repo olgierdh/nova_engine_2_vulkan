@@ -2,7 +2,7 @@
 A story about porting in-house 3D engine to Vulkan
 @snapend
 
-@snap[west span-40 text-black text-bold]
+@snap[west span-40 text-black text-bold bg-gray]
 Olgierd Humeńczuk
 @snapend
 

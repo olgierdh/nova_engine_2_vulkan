@@ -140,9 +140,9 @@ Implementation - Abstract device
 ```cpp
 class abstract_device
 {
-    virtual render_pass create_render_pass(
-        render_pass_create_info&& ) = 0;
-    virtual void release( render_pass rp ) = 0;
+    virtual state_a_handle create_state_a(
+        state_a_create_info&& ) = 0;
+    virtual void release( state_a_handle sa ) = 0;
 
     virtual command_buffer
     create_command_buffer( const

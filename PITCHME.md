@@ -49,7 +49,7 @@ Vulkan
 API comparition
 @snapend
 
-@snap[west span-100 text-white text-bold text-08]
+@snap[north-west span-100 text-white text-bold text-08]
 OpenGL
 ```cpp
 glClearColor(1.0f, 0.0f, 0.0f, 1.0f);

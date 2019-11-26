@@ -136,7 +136,7 @@ The "Command Buffer" approach
 Dilemma
 @snapend
 
-@snap[middlepoint span-10]
+@snap[middlepoint span-100]
 ![PLATE](assets/fit.png)
 @snapend
 

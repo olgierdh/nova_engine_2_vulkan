@@ -27,18 +27,19 @@ About OpenGL and Vulkan
 OpenGL
 @ul[list-square-bullets]
 - OpenGL 1.0 year 1992
-- Driver responsibility: high
-- Simple API
-- Global state machine
+- Driver responsibility and overhead: high
+- API: bunch of getters and setters for global states
+- Debugging: get-last-error approach, verification during execution
 @ulend
 @snapend
 
 @snap[east span-50 text-black text-bold]
 Vulkan
 @ul[list-square-bullets]
-- Derived from C language
-- Reasons for having templates
-- DRY ( Do not Repeat Yourself )
+- Vulkan 1.0 2015
+- Driver responsibility and overhead: low
+- API: still functions but operates on entities a.k.a. named states
+- Dubugging: special debug layers, verification only through debug layers
 @ulend
 @snapend
 

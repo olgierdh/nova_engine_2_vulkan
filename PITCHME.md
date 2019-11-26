@@ -208,7 +208,7 @@ struct gl_cmd_recorder
     inline void operator()( const nv::gfx_cmds::cmd_set_state_a& cmd )
     {
         const gl_set_state_a_info* state_a_info = m_data.get( cmd.h );
-        glClearColor(state_a_info.color);
+        glClearColor(state_a_info->color);
         ...
     }
     database& m_data;

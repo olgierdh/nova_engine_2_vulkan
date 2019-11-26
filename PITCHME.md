@@ -23,7 +23,7 @@ BIO
 About OpenGL and Vulkan
 @snapend
 
-@snap[west span-50 text-white text-bold text-07]
+@snap[west span-50 text-white text-bold text-08]
 OpenGL
 @ul[list-square-bullets]
 - OpenGL 1.0 year 1992
@@ -33,10 +33,10 @@ OpenGL
 @ulend
 @snapend
 
-@snap[east span-50 text-black text-bold text-07]
+@snap[east span-50 text-black text-bold text-08]
 Vulkan
 @ul[list-square-bullets]
-- Vulkan 1.0 2015
+- Vulkan 1.0 years 2015/2016
 - Driver responsibility and overhead: low
 - API: still functions but operates on entities a.k.a. named states
 - Dubugging: special debug layers, verification only through debug layers

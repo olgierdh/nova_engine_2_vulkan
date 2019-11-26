@@ -97,6 +97,15 @@ Vulkan
 
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 @snap[north span-100 text-pink text-13 text-bold]
+Dilemma
+@snapend
+
+@snap[middlepoint span-100]
+![PLATE](assets/fit.png)
+@snapend
+
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
+@snap[north span-100 text-pink text-13 text-bold]
 The "State Based" approach
 @snapend
 
@@ -129,15 +138,6 @@ The "Command Buffer" approach
 
 @snap[east span-50]
 ![PLATE](assets/cmdbuf_based_approach.png)
-@snapend
-
----?color=linear-gradient(92deg, #444444 50%, silver 50%)
-@snap[north span-100 text-pink text-13 text-bold]
-Dilemma
-@snapend
-
-@snap[middlepoint span-100]
-![PLATE](assets/fit.png)
 @snapend
 
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)

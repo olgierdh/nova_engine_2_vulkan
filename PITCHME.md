@@ -1,22 +1,23 @@
 
----?color=linear-gradient(180deg, white 75%, black 25%)
+---?color=linear-gradient(180deg, black 25%, white 75%)
 
-@snap[west span-25]
+@snap[north span-100 text-white]
+A story about porting in-house 3D engine to Vulkan
+@snapend
+
+@snap[west span-40]
 ### Olgierd Humeńczuk
 @snapend
 
-@snap[east span-75]
+@snap[east span-60]
 #### BIO
-@ul[list-square-bullets text-blue](false)
+@ul[list-square-bullets text-black](false)
 - Have been programming for past 18 years
 - Have created multiple game engines including software rendering
 - Have been working on high performance networking server and clients in C and C++
 @ulend
 @snapend
 
-@snap[south span-100 text-white]
-A story about porting in-house 3D engine to Vulkan
-@snapend
 ---
 
 @snap[north span-100]

@@ -38,7 +38,7 @@ Vulkan
 @ul[list-square-bullets]
 - Vulkan 1.0 years 2015/2016
 - Driver responsibility and overhead: low
-- API: still functions but operates on entities a.k.a. named states
+- API: still functions but operates on entities such as device, queue or command buffer
 - Dubugging: special debug layers, verification only through debug layers
 @ulend
 @snapend

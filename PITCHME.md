@@ -86,7 +86,7 @@ The "State Based" approach
 @snapend
 
 @snap[span-100]
-@code[uml rawcode zoom-15](src/state_approach.puml)
+@uml[span-100 bg-white](src/state_approach.puml)
 @snapend
 
 @snap[span-100]

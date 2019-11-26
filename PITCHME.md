@@ -2,11 +2,11 @@
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 
 @snap[west span-50]
-##### Olgierd Humeńczuk
+### Olgierd Humeńczuk
 @snapend
 
 @snap[south span-100 text-white]
-## A story about porting in-house 3D engine to Vulkan
+A story about porting in-house 3D engine to Vulkan
 @snapend
 ---
 

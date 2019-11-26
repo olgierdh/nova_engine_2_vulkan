@@ -101,7 +101,7 @@ The "State Based" approach
 @snapend
 
 @snap[west span-50 text-white text-bold text-07]
-@ul[list-square-bullets]
+@ul[list-square-bullets](false)
 - Use OpenGL like API
 - Each state change is registered in a temporary buffer
 - Whenever the state changes fills all required fields or draw/flush encountered gather data and form Vulkan named states

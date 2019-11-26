@@ -17,9 +17,7 @@ BIO
 @ulend
 @snapend
 
----
-
----?color=linear-gradient(95deg, black 80%, silver 20%)
+---?color=linear-gradient(95deg, black 50%, silver 50%)
 
 @snap[north span-100]
 #### A little bit about OpenGL and Vulkan

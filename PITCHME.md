@@ -2,7 +2,16 @@
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 
 @snap[west span-50]
-### Olgierd Humeńczuk
+## Olgierd Humeńczuk
+@snapend
+
+@snap[east span-50]
+### BIO
+@ul
+- Have been programming for past 18 years
+- Have created multiple game engines including software rendering
+- Have been working on high performance networking server and clients in C and C++
+@ulend
 @snapend
 
 @snap[south span-100 text-white]

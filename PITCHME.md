@@ -11,9 +11,9 @@ Olgierd Humeńczuk
 @snap[east span-60 text-07 text-gray]
 BIO
 @ul[list-square-bullets text-silver](false)
-- Have been programming for past 18 years using different programming languages
-- Have created multiple game engines including software rendering
-- Have been working on high performance networking server and clients in C and C++
+- Has been programming for past 18 years using different programming languages
+- Has created multiple game engines including software renderers
+- Has been working on high performance networking servers and clients in C and C++
 @ulend
 @snapend
 

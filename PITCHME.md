@@ -44,11 +44,15 @@ Vulkan
 @snapend
 
 @snap[south-west span-50 text-white text-bold text-07]
-Test GL
+```cpp
+glSetColor4f(0.5f, 0.5f, 0.5f, 0.5f);
+```
 @snapend
 
 @snap[south-east span-50 text-black text-bold text-07]
-Test VK
+```cpp
+glSetColor4f(0.5f, 0.5f, 0.5f, 0.5f);
+```
 @snapend
 
 ---

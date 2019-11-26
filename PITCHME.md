@@ -85,7 +85,7 @@ vkEndCommandBuffer(m_cmdBufs[i]);
 The "State Based" approach
 @snapend
 
-@snap[span-50]
+@snap[span-100]
 ![PLATE](assets/state_based_approach.png)
 @snapend
 

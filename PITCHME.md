@@ -49,7 +49,7 @@ Vulkan
 API comparition
 @snapend
 
-@snap[west span-50 text-white text-bold text-07]
+@snap[west span-50 text-white text-bold]
 OpenGL
 ```cpp
 glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
@@ -57,7 +57,7 @@ glClear(GL_COLOR_BUFFER_BIT);
 ```
 @snapend
 
-@snap[east span-50 text-black text-bold text-07]
+@snap[east span-50 text-black text-bold]
 Vulkan
 ```cpp
 VkCommandBufferBeginInfo beginInfo = {};

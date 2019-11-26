@@ -4,13 +4,20 @@ This talk should present in a simple and easy to digest form how we ported Nova 
 
 # Chapters
 
+## 0 - something about Vulkan and OpenGL
+* Piece of history ?
+* Driver responsibities
+* Debug layers and debugging
+  * Verification of states by OpenGL vs Vulkan debug layers
+* Shape of the API
+
 ## I - Building abstract model of OpenGL and Vulkan APIs 
 
 * What is state machine ? 
 * OpenGL as a global state machine 
 * Vulkan as a local named states 
 
-## II - Idea of exection model for OpenGL and Vulkan APIs
+## II - Idea of execution model for OpenGL and Vulkan APIs
 
 * OpenGL uses swap and executes whole "command chain"
 * Vulkan uses idea of Command Buffer 
@@ -35,4 +42,7 @@ This talk should present in a simple and easy to digest form how we ported Nova 
 
 ## The End
 Thank you
+
+# Description in Polish
+Podczas tego wykladu opowiem o portowaniu naszego silnika "Nova" na nowoczesne API graficzne jakim jest Vulkan. Przyjrzymy się temu co wyróżnia Vulkana i co sprawia że warto używać tego API. Opowiem również o kilku implementacyjnych szczegółach oraz decyzjach architektonicznych które umożliwiły nam uruchamiać silnik używając obu API graficznych i przygotować "Novę" do portowania na pozostałe platformy. Znajomość OpenGLa ani Vulkana nie jest wymagana, postaram się zbudować minimalną bazę wiedzy niezbędną do zrozumienia reszty wykładu.
 

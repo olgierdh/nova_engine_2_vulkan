@@ -1,4 +1,4 @@
-@snap[north span-100 text-blue text-20]
+@snap[north span-100 text-blue text-10]
 A story about porting in-house 3D engine to Vulkan
 @snapend
 

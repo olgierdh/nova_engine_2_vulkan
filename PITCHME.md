@@ -1,6 +1,6 @@
 ---?color=linear-gradient(175deg, black 80%, silver 20%)
 
-@snap[north span-100 text-blue text-13 text-pink]
+@snap[north span-100 text-13 text-pink]
 A story about porting in-house 3D engine to Vulkan
 @snapend
 
@@ -19,22 +19,22 @@ BIO
 
 ---?color=linear-gradient(95deg, black 50%, silver 50%)
 
-@snap[north span-100]
-#### A little bit about OpenGL and Vulkan
+@snap[north span-100 text-pink text-13]
+A little bit about OpenGL and Vulkan
 @snapend
 
-@snap[west span-50]
+@snap[west span-50 text-blue text-bold]
 OpenGL
-@ul
+@ul[list-square-bullets](false)
 - Derived from C language
 - Reasons for having templates
 - DRY ( Do not Repeat Yourself )
 @ulend
 @snapend
 
-@snap[east span-50]
+@snap[east span-50 text-black text-bold]
 Vulkan
-@ul
+@ul[list-square-bullets](false)
 - Derived from C language
 - Reasons for having templates
 - DRY ( Do not Repeat Yourself )

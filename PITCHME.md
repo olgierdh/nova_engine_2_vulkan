@@ -171,29 +171,18 @@ struct cmd_start_recording {};
 struct cmd_end_recording {};
 struct cmd_set_state_a { state_a_handle h; };
 
-using gfx_cmd_union = safe_union<
-    cmd_start_recording,
-    cmd_end_recording,
+using gfx_cmd_union = safe_union< cmd_start_recording, cmd_end_recording,
     cmd_set_state_a >;
 
 template < sint64 N > class gfx_cmds_recorder
 {
 public:
     using type = gfx_cmds::gfx_cmd_union;
-    friend cmd_recorder_ref;
 
     constexpr bool rec_cmd( type&& cmd )
     {
-        if ( m_current_size == N )
-        {
-            NV_ASSERT( false, "No space left!" );
-            return false;
-        }
-
         new ( &m_data[m_current_size] ) type( nv::move( cmd ) );
-
         m_current_size += 1;
-
         return true;
     }
 private:

@@ -1,4 +1,4 @@
----?color=linear-gradient(180deg, white 20%, #005f6b 80%)
+---?color=linear-gradient(180deg, black 20%, #005f6b 80%)
 
 @snap[north span-100 text-blue text-13 text-white bg-black]
 A story about porting in-house 3D engine to Vulkan

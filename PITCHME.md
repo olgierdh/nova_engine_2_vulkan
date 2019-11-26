@@ -234,7 +234,7 @@ Implementation - Visitor
 [Visitor Implementation](https://godbolt.org/z/sA01si)
 @snapend
 
----?color=linear-gradient(92deg, #444444 50%, silver 50%)
+---?color=#444444 50%
 
 @snap[north span-100 text-pink text-13 text-bold]
 Thank you!

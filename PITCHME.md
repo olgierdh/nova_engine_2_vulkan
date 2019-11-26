@@ -73,10 +73,10 @@ image_range.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
 image_range.levelCount = 1;
 image_range.layerCount = 1;
 
-vkBeginCommandBuffer(m_cmdBufs[i], &begin_info);
-vkCmdClearColorImage(m_cmdBufs[i], m_images[i],
+vkBeginCommandBuffer(cmd_buf, &begin_info);
+vkCmdClearColorImage(cmd_buf, img,
     VK_IMAGE_LAYOUT_GENERAL, &clear_value, 1, &image_range);
-vkEndCommandBuffer(m_cmdBufs[i]);
+vkEndCommandBuffer(cmd_buf);
 ```
 @snapend
 

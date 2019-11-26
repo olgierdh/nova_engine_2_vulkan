@@ -57,7 +57,7 @@ glClear(GL_COLOR_BUFFER_BIT);
 ```
 @snapend
 
-@snap[span-100 text-black text-bold text-06]
+@snap[span-100 text-black text-bold text-08]
 Vulkan
 ```cpp
 VkCommandBufferBeginInfo beginInfo = {};

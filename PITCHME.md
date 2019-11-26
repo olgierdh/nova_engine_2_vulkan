@@ -136,6 +136,28 @@ The "Command Buffer" approach
 Implementation - Abstract device
 @snapend
 
+@snap[middlepoint span-100]
+```cpp
+class abstract_device
+{
+    virtual void initialize( void* device_data )                        = 0;
+    virtual render_pass create_render_pass( render_pass_create_info&& ) = 0;
+    virtual void release( render_pass rp )                              = 0;
+
+    virtual command_buffer
+    create_command_buffer( const nv::gfx_cmds::gfx_cmd_union* data, size_t size ) = 0;
+    virtual void
+    update_command_buffer( command_buffer cb, const nv::gfx_cmds::gfx_cmd_union* data,
+                            size_t size )      = 0;
+    virtual void release( command_buffer cb ) = 0;
+
+    virtual void add_command_buffer_to_execution_queue( command_buffer cb ) = 0;
+    virtual void submit_execution_queue( bool is_draw )                     = 0;
+    virtual void wait_for_idle();
+};
+```
+@snapend
+
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]

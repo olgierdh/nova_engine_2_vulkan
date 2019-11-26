@@ -1,8 +1,8 @@
 @snap[north span-100]
-A story about porting in-house 3D engine to Vulkan
+# A story about porting in-house 3D engine to Vulkan
 @snapend
 
-@snap[west span-40]
+@snap[west span-40 text-blue]
 ### Olgierd Humeńczuk
 @snapend
 

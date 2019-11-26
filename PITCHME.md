@@ -1,7 +1,10 @@
 
-## A story about porting in-house 3D engine to Vulkan 
-##### Olgierd Humeńczuk 
+---?color=linear-gradient(180deg, white 75%, black 25%)
+##### Olgierd Humeńczuk
 
+@snap[south span-100 text-white]
+## A story about porting in-house 3D engine to Vulkan
+@snapend
 ---
 
 @snap[north span-100]
@@ -37,9 +40,9 @@
 @snap[east span-50]
 #### The good
 @ul
-- Type safety 
+- Type safety
 - Code correctness
-- More optimizations 
+- More optimizations
 @ulend
 @snapend
 
@@ -76,18 +79,18 @@ Metaprogramming can be used:
 #### What kind of problems we can solve using metaprogramming ? (3/4)
 
 Metaprogramming can be used:
-* For selecting processing path based on type qualities 
-    * Using memcpy instead of assignment operator for types that are trivially copyable 
-    * Auto serialization/deserialization 
+* For selecting processing path based on type qualities
+    * Using memcpy instead of assignment operator for types that are trivially copyable
+    * Auto serialization/deserialization
 
 ---
 
 #### What kind of problems we can solve using metaprogramming ? (4/4)
 
 Metaprogramming can be used:
-* For optimisation 
+* For optimisation
     * Small buffer
-    * Static polymorphism 
+    * Static polymorphism
     * Enabling SSE using proper data layout and accessors
 * For type safe type erasure
 
@@ -95,9 +98,9 @@ Metaprogramming can be used:
 
 ### Tacit style programming
 
-What is Tacit programming ? 
+What is Tacit programming ?
 
-Remember pipes ? 
+Remember pipes ?
 
 ```bash
 ls -al | grep -i "sdl" | sort
@@ -119,7 +122,7 @@ Few facts about TMP
 
 [Example of basic vocabulary types used in TMP](https://godbolt.org/z/OyHhEw)
 
---- 
+---
 #### Old approach vs TMP ( 1/2 )
 Example from Nova Engine:
 
@@ -132,10 +135,10 @@ struct message_idx{
     using type = empty_type;
 };
 
-template < typename ID, int I = 0, 
+template < typename ID, int I = 0,
     typename T = typename message_idx<ID,I>::type >
 struct message_gather{
-    using type = typename mpl::append< mpl::list<T>, 
+    using type = typename mpl::append< mpl::list<T>,
         typename message_gather< ID, I + 1 >::type >;
 };
 
@@ -163,7 +166,7 @@ template < typename ID, int I > struct message_idx {
 namespace detail {
 template < typename ID > struct i2type {
     template < int I >
-    using predicate = 
+    using predicate =
     typename conditional<
         is_same< typename message_idx< ID, I >::type, empty_type >::value >::
             template type< tml::nop< typename message_idx< ID, I >::type >,
@@ -189,8 +192,8 @@ auto gl_call( R ( *func )( Args... ), TArgs&&... args ) -> R
 {
     const auto e0 = glGetError(); R ret{0};
 
-    if ( e0 == GL_NO_ERROR ) { 
-        ret = func( static_cast< Args >( 
+    if ( e0 == GL_NO_ERROR ) {
+        ret = func( static_cast< Args >(
             std::forward< TArgs >( args ) )... ); }
     else { report_gl_dirty( e0 ); return ret; }
 
@@ -200,7 +203,7 @@ auto gl_call( R ( *func )( Args... ), TArgs&&... args ) -> R
 }
 ```
 
---- 
+---
 
 ### Example of using detection idiom for generating bindings
 

@@ -19,11 +19,14 @@ BIO
 
 ---
 
+---?color=linear-gradient(95deg, black 80%, silver 20%)
+
 @snap[north span-100]
-#### C++ evolution
+#### A little bit about OpenGL and Vulkan
 @snapend
 
 @snap[west span-50]
+OpenGL
 @ul
 - Derived from C language
 - Reasons for having templates
@@ -31,8 +34,13 @@ BIO
 @ulend
 @snapend
 
-@snap[east sidebar]
-![PLATE](assets/hydrant.jpg)
+@snap[east span-50]
+Vulkan
+@ul
+- Derived from C language
+- Reasons for having templates
+- DRY ( Do not Repeat Yourself )
+@ulend
 @snapend
 
 ---

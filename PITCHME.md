@@ -161,6 +161,24 @@ class abstract_device
 @snapend
 
 ---?color=linear-gradient(92deg, #444444 50%, silver 50%)
+@snap[north span-100 text-pink text-13 text-bold]
+Implementation - Command buffer
+@snapend
+
+@snap[middlepoint span-100]
+```cpp
+struct cmd_start_recording {};
+struct cmd_end_recording {};
+struct cmd_set_state_a { state_a_handle h; };
+
+using gfx_cmd_union = safe_union<
+    cmd_start_recording,
+    cmd_end_recording,
+    cmd_set_state_a >;
+```
+@snapend
+
+---?color=linear-gradient(92deg, #444444 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]
 Thank you!

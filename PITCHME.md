@@ -57,7 +57,7 @@ glClear(GL_COLOR_BUFFER_BIT);
 ```
 @snapend
 
-@snap[south-east span-100 text-black text-bold text-08]
+@snap[south-east span-100 text-black text-bold text-06]
 Vulkan
 ```cpp
 VkCommandBufferBeginInfo beginInfo = {};
@@ -68,8 +68,7 @@ beginInfo.flags = VK_COMMAND_BUFFER_USAGE_SIMULTANEOUS_USE_BIT;
 VkClearColorValue clearColor
     = { 164.0f/256.0f, 30.0f/256.0f, 34.0f/256.0f, 0.0f };
 
-VkClearValue clearValue = {};
-clearValue.color = clearColor;
+VkClearValue clearValue = {clearColor};
 
 vkBeginCommandBuffer(m_cmdBufs[i], &beginInfo);
 vkCmdClearColorImage(m_cmdBufs[i], m_images[i],

@@ -23,9 +23,9 @@ BIO
 What is rendering engine?
 @snapend
 
----?color=#444444
+---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[north span-100 text-white text-10 text-bold bg-orange]
+@snap[north span-100 text-white text-8 text-bold bg-orange]
 About OpenGL and Vulkan
 @snapend
 

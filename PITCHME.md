@@ -70,7 +70,7 @@ Vulkan entities ( a.k.a named states )
 @snapend
 
 @snap[east span-50 text-white text-left text-bold text-6]
-@ul[list-square-bullets](false)
+@ul[list-square-bullets text-6](false)
 @box[bg-orange text-white text-07](Queue # Three types of queues: Graphics, Compute, Transfer )
 @box[bg-green text-white text-07](Render Pass # Gathers setup for render targets and dependencies between them )
 @box[bg-blue text-white text-07](Pipeline # Describes the configuration of input data, shaders etc.)

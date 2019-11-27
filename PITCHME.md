@@ -278,6 +278,43 @@ Let's try the "Command Buffer" approach
 
 ---?color=#444444
 @snap[north span-100 text-white text-08 text-bold bg-orange]
+Solution?
+@snapend
+
+@snap[west span-50 text-08]
+Pros ( Command Buffer approach )
+@ul[list-square-bullets](false)
+- Explicit Vulkan like API gives better control
+- Better suits modern gfx APIs
+- Less error prone
+@ulend
+@snapend
+
+@snap[south-west span-50 text-08]
+Pros ( OpenGL like approach )
+@ul[list-square-bullets](false)
+- We will not have to rewrite most of the renderer
+@ulend
+@snapend
+
+@snap[west span-50 text-08]
+Cons ( Command Buffer approach )
+@ul[list-square-bullets](false)
+- We will have to rewrite half of the renderer
+- We may encounter situations where OpenGL will be much more less efficient
+@ulend
+@snapend
+
+@snap[south-east span-50 text-08]
+Cons ( OpenGL like approach )
+@ul[list-square-bullets](false)
+- Very error prone
+- It will probably be much less efficient than the Command Buffer approach
+@ulend
+@snapend
+
+---?color=#444444
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Implementation - Abstract device
 @snapend
 

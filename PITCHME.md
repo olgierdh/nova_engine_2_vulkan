@@ -286,6 +286,7 @@ Pros ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - Explicit Vulkan like API gives better control
 - Suits better other modern gfx APIs ( consoles etc. )
+- Better performance overall
 - Less error prone
 @ulend
 @snapend

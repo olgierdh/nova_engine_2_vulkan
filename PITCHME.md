@@ -104,7 +104,7 @@ Vulkan entities
 Programmer API comparision
 @snapend
 
-@snap[west span-49 text-white text-bold text-07 text-center]
+@snap[west span-49 text-white text-bold text-06 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
 - Functions for managing resources
@@ -115,8 +115,8 @@ OpenGL
 @ulend
 @snapend
 
-@snap[east span-49 text-black text-bold text-07 text-center]
-OpenGL
+@snap[east span-49 text-black text-bold text-06 text-center]
+Vulkan
 @ul[list-square-bullets text-center]
 - Functions that operates on three different levels
     - device level

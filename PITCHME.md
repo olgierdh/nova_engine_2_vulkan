@@ -25,7 +25,7 @@ What is rendering engine?
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[north span-100 text-white text-12 text-bold bg-orange]
+@snap[north span-100 text-white text-10 text-bold bg-orange]
 About OpenGL and Vulkan
 @snapend
 

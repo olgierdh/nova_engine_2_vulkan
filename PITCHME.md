@@ -94,7 +94,10 @@ Programmer API comparision
 @snap[west span-49 text-white text-bold text-05 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
-- glGen\*/glCreate\*
+- Functions for creating resources
+    - glCreate/glGen
+- Functions for setting values
+    - glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
 @ulend
 @snapend
 

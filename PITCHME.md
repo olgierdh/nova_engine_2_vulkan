@@ -149,6 +149,7 @@ Implementation - Abstract device
 ```cpp
 class abstract_device
 {
+public:
     virtual state_a_handle create_state_a(
         state_a_create_info&& ) = 0;
     virtual void release( state_a_handle sa ) = 0;

@@ -70,7 +70,7 @@ Vulkan entities ( a.k.a named states )
 @snapend
 
 @snap[span-100 text-white text-left text-bold text-10]
-@box[bg-yellow text-white text-07](Queue # Three types of queues: Graphics, Compute, Transfer )
+@box[bg-orange text-white text-07](Queue # Three types of queues: Graphics, Compute, Transfer )
 @snapend
 
 @snap[span-100 text-white text-left text-bold text-10]
@@ -82,7 +82,7 @@ Vulkan entities ( a.k.a named states )
 @snapend
 
 @snap[span-100 text-white text-left text-bold text-10]
-@box[bg-red text-white text-07](Command Buffer # Gathers commands to be executed on any of the Queue )
+@box[bg-pink text-white text-07](Command Buffer # Gathers commands to be executed on any of the Queue )
 @snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)

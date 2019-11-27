@@ -86,7 +86,7 @@ Vulkan entities we care
 
 @box[bg-green text-white text-09](Render Pass # Gathers setup for render targets and dependencies between them )
 
-@box[bg-blue text-white text-09](Pipeline # Describes the configuration of input data, shaders etc.)
+@box[bg-blue text-white text-09](Pipeline # Describes the configuration of input data, shaders, render passes etc.)
 
 @snapend
 

@@ -65,11 +65,11 @@ Vulkan API
 
 ---?color=#444444
 
-@snap[span-100 text-white bg-orange text-08 text-bold]
+@snap[north span-100 text-white bg-orange text-08 text-bold]
 Vulkan entities ( a.k.a named states )
 @snapend
 
-@snap[span-100 text-08]
+@snap[east span-50 text-08]
 @box[bg-green text-white text-08](Render Pass # Gathers setup for render targets and dependencies between them )
 @box[bg-blue text-white text-08](Pipeline # Describes the configuration of input data, shaders etc.)
 @box[bg-orange text-white text-08](Queue # Three types of queues: Graphics, Compute, Transfer )

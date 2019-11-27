@@ -175,7 +175,7 @@ public:
 Implementation - Command buffer
 @snapend
 
-@snap[middlepoint span-100 text-08]
+@snap[middlepoint span-100 text-07]
 ```cpp
 struct cmd_start_recording {};
 struct cmd_end_recording {};

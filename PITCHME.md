@@ -285,7 +285,7 @@ Solution?
 Pros ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - Explicit Vulkan like API gives better control
-- Better suits modern gfx APIs
+- Suits better other modern gfx APIs ( consoles etc. )
 - Less error prone
 @ulend
 @snapend

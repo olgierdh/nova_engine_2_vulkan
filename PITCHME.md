@@ -181,7 +181,7 @@ Dilemma
 @snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Let's build our "Abstraction" - let's treat OpenGL and Vulkan as simple state machines
 @snapend
 

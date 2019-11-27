@@ -309,7 +309,7 @@ Cons ( Command Buffer approach )
 Cons ( OpenGL like approach )
 @ul[list-square-bullets](false)
 - Very error prone
-- It will probably be much less efficient than the Command Buffer approach
+- It will probably be much less efficient for Vulkan and other modern APIs
 @ulend
 @snapend
 

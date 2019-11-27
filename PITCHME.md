@@ -281,7 +281,7 @@ Let's try the "Command Buffer" approach
 Solution?
 @snapend
 
-@snap[west span-45 text-06 text-center text-white]
+@snap[west span-48 text-06 text-center text-white]
 Pros ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - Explicit Vulkan like API gives better control
@@ -290,7 +290,7 @@ Pros ( Command Buffer approach )
 @ulend
 @snapend
 
-@snap[south-west span-45 text-06 text-center text-white]
+@snap[south-west span-48 text-06 text-center text-white]
 Pros ( OpenGL like approach )
 @ul[list-square-bullets](false)
 - We will not have to rewrite most of the renderer
@@ -299,7 +299,7 @@ Pros ( OpenGL like approach )
 @ulend
 @snapend
 
-@snap[east span-45 text-06 text-center text-black]
+@snap[east span-48 text-06 text-center text-black]
 Cons ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - We will have to rewrite half of the renderer
@@ -308,7 +308,7 @@ Cons ( Command Buffer approach )
 @ulend
 @snapend
 
-@snap[south-east span-45 text-06 text-center text-black]
+@snap[south-east span-48 text-06 text-center text-black]
 Cons ( OpenGL like approach )
 @ul[list-square-bullets](false)
 - Very error prone for Vulkan implementation

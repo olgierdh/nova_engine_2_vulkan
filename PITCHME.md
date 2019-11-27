@@ -242,7 +242,7 @@ Vulkan
 
 @snap[south-west span-48 text-07]
 ```cpp
-glClearColor = setState
+glClearColor = setStateA
 ```
 @snapend
 

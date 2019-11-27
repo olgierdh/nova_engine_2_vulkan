@@ -128,6 +128,15 @@ vkEndCommandBuffer(cmd_buf);
 ```
 @snapend
 
+---?color=#444444
+@snap[north span-100 text-white text-8 text-bold bg-orange]
+Dilemma
+@snapend
+
+@snap[middlepoint span-100]
+![PLATE](assets/fit.png)
+@snapend
+
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 @snap[north span-100 text-white text-8 text-bold bg-orange]
 Let's build our "Abstraction" - let's treat OpenGL and Vulkan as simple state machines
@@ -141,15 +150,6 @@ OpenGL
 @snap[east span-50 text-black text-bold text-07]
 Vulkan
 ![PLATE](assets/vulkan_states.png)
-@snapend
-
----?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
-Dilemma
-@snapend
-
-@snap[middlepoint span-100]
-![PLATE](assets/fit.png)
 @snapend
 
 ---?color=#444444

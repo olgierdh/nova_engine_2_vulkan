@@ -49,7 +49,7 @@ Vulkan
 @ulend
 @snapend
 
----?color=linear-gradient(90deg, #444444 50%, silver 50%)
+---?color=#444444
 
 @snap[span-100 text-white bg-orange text-13 text-bold]
 Vulkan API
@@ -57,7 +57,7 @@ Vulkan API
 
 ![PLATE](assets/VulkanAPI.png)
 
----?color=linear-gradient(90deg, #444444 50%, silver 50%)
+---?color=#444444
 
 @snap[span-100 text-white bg-orange text-13 text-bold]
 Vulkan entities

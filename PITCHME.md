@@ -276,12 +276,12 @@ Let's try the "Command Buffer" approach
 ![PLATE](assets/cmdbuf_based_approach.png)
 @snapend
 
----?color=#444444
+---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 @snap[north span-100 text-white text-08 text-bold bg-orange]
 Solution?
 @snapend
 
-@snap[west span-50 text-05]
+@snap[west span-50 text-05 text-center]
 Pros ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - Explicit Vulkan like API gives better control
@@ -290,14 +290,14 @@ Pros ( Command Buffer approach )
 @ulend
 @snapend
 
-@snap[south-west span-50 text-05]
+@snap[south-west span-50 text-05 text-center]
 Pros ( OpenGL like approach )
 @ul[list-square-bullets](false)
 - We will not have to rewrite most of the renderer
 @ulend
 @snapend
 
-@snap[east span-50 text-05]
+@snap[east span-50 text-05 text-center text-black]
 Cons ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - We will have to rewrite half of the renderer
@@ -305,7 +305,7 @@ Cons ( Command Buffer approach )
 @ulend
 @snapend
 
-@snap[south-east span-50 text-05]
+@snap[south-east span-50 text-05 text-center text-black]
 Cons ( OpenGL like approach )
 @ul[list-square-bullets](false)
 - Very error prone

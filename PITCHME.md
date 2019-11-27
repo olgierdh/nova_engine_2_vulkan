@@ -66,7 +66,7 @@ Vulkan API
 ---?color=#444444
 
 @snap[north span-100 text-white bg-orange text-08 text-bold]
-Vulkan entities ( a.k.a named states )
+Vulkan entities
 @snapend
 
 @snap[east span-40 text-09]
@@ -130,7 +130,7 @@ vkEndCommandBuffer(cmd_buf);
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 @snap[north span-100 text-white text-8 text-bold bg-orange]
-Let's build our "Abstraction"
+Let's build our "Abstraction" - let's treat OpenGL and Vulkan as simple state machines
 @snapend
 
 @snap[west span-50 text-white text-bold text-07]

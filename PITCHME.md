@@ -23,7 +23,7 @@ BIO
 About OpenGL and Vulkan
 @snapend
 
-@snap[west span-55 text-white text-bold text-07 text-center]
+@snap[west span-45 text-white text-bold text-07 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
 - OpenGL 1.0 year 1992

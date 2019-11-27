@@ -197,7 +197,7 @@ Vulkan
 
 ---?color=#444444
 @snap[north span-100 text-white text-08 text-bold bg-orange]
-The "State Based" approach
+Let's try to fit into existing architecture - OpenGL like API
 @snapend
 
 @snap[west span-50 text-white text-bold text-07]
@@ -215,7 +215,7 @@ The "State Based" approach
 
 ---?color=#444444
 @snap[north span-100 text-white text-08 text-bold bg-orange]
-The "Command Buffer" approach
+Let's try the "Command Buffer" approach
 @snapend
 
 @snap[west span-50 text-white text-bold text-07]

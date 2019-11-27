@@ -197,6 +197,7 @@ virtual buffer  create_buffer() = 0;
 virtual texture create_texture() = 0;
 };
 ```
+@snapend
 
 @snap[south-east span-50 text-04]
 ```cpp
@@ -207,7 +208,6 @@ virtual buffer  create_buffer() = 0;
 virtual texture create_texture() = 0;
 };
 ```
-
 @snapend
 
 ---?color=#444444

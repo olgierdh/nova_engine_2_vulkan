@@ -91,15 +91,30 @@ Vulkan entities
 Programmer API comparision
 @snapend
 
-@snap[west span-49 text-white text-bold text-05 text-center]
+@snap[west span-49 text-white text-bold text-07 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
 - Functions for creating resources
     - glCreate/glGen
 - Functions for setting values
     - glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+    - glUniform1f(loc, 0.234f);
 @ulend
 @snapend
+
+@snap[east span-49 text-black text-bold text-07 text-center]
+OpenGL
+@ul[list-square-bullets text-center]
+- Functions that operates on two different levels
+    - device level
+    - command buffer level
+- Functions for creating resources
+    - vkCreateImage( device, ... );
+- Functions for recording command buffer
+    - vkCmdBindPipeline( cmd_buffer, ... );
+@ulend
+@snapend
+
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 

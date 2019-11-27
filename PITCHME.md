@@ -136,7 +136,7 @@ The "Command Buffer" approach
 @ulend
 @snapend
 
-@snap[east span-50]
+@snap[east span-45]
 ![PLATE](assets/cmdbuf_based_approach.png)
 @snapend
 

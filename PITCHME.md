@@ -25,7 +25,7 @@ About OpenGL and Vulkan
 
 @snap[west span-50 text-white text-bold text-07 text-center]
 OpenGL
-@ul[list-square-bullets]
+@ul[list-square-bullets text-center]
 - OpenGL 1.0 year 1992
 - Driver responsibility and overhead: high
 - API: getters and setters for global state
@@ -35,7 +35,7 @@ OpenGL
 
 @snap[east span-50 text-black text-bold text-07 text-center]
 Vulkan
-@ul[list-square-bullets]
+@ul[list-square-bullets text-center]
 - Vulkan 1.0 years 2015/2016
 - Driver responsibility and overhead: low
 - API: still functions but operates on entities such as device, queue or command buffer ( entity based )

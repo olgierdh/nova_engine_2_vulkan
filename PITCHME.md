@@ -25,7 +25,7 @@ What is rendering engine?
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 About OpenGL and Vulkan
 @snapend
 
@@ -57,7 +57,7 @@ Vulkan
 
 ---?color=#444444
 
-@snap[span-100 text-white bg-orange text-8 text-bold]
+@snap[span-100 text-white bg-orange text-08 text-bold]
 Vulkan API
 @snapend
 
@@ -65,20 +65,20 @@ Vulkan API
 
 ---?color=#444444
 
-@snap[span-100 text-white bg-orange text-8 text-bold]
+@snap[span-100 text-white bg-orange text-08 text-bold]
 Vulkan entities ( a.k.a named states )
 @snapend
 
-@snap[span-100 text-05]
-@box[bg-green text-white text-6](Render Pass # Gathers setup for render targets and dependencies between them )
-@box[bg-blue text-white text-6](Pipeline # Describes the configuration of input data, shaders etc.)
-@box[bg-orange text-white text-6](Queue # Three types of queues: Graphics, Compute, Transfer )
-@box[bg-pink text-white text-6](Command Buffer # Gathers commands to be executed on any of the Queue )
+@snap[span-100 text-06]
+@box[bg-green text-white text-06](Render Pass # Gathers setup for render targets and dependencies between them )
+@box[bg-blue text-white text-06](Pipeline # Describes the configuration of input data, shaders etc.)
+@box[bg-orange text-white text-06](Queue # Three types of queues: Graphics, Compute, Transfer )
+@box[bg-pink text-white text-06](Command Buffer # Gathers commands to be executed on any of the Queue )
 @snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[span-100 text-white bg-orange text-13 text-bold]
+@snap[span-100 text-white bg-orange text-08 text-bold]
 API comparision
 @snapend
 

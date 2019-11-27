@@ -298,7 +298,7 @@ Solution?
 @snapend
 
 @snap[west span-50 text-07 text-left text-white]
-@box[bg-pink text-white](Pros Command Buffer approach # Explicit Vulkan like API gives better control </br> Suits better other modern gfx APIs (consoles etc.) </br> Better performance overall </br> Less error prone )
+@box[bg-green text-white](Pros Command Buffer approach # Explicit Vulkan like API gives better control </br> Suits better other modern gfx APIs (consoles etc.) </br> Better performance overall </br> Less error prone )
 @snapend
 
 @snap[south-west span-50 text-07 text-left text-white]
@@ -306,7 +306,7 @@ Solution?
 @snapend
 
 @snap[east span-50 text-07 text-left text-black]
-@box[bg-pink text-white]( Cons Command Buffer approach # We will have to rewrite half of the renderer </br> We will have to make it in a separate branch and stall work on rendering part </br> We may encounter situations where OpenGL will be much more less efficient)
+@box[bg-green text-white]( Cons Command Buffer approach # We will have to rewrite half of the renderer </br> We will have to make it in a separate branch and stall work on rendering part </br> We may encounter situations where OpenGL will be much more less efficient)
 @snapend
 
 @snap[south-east span-50 text-07 text-left text-black]

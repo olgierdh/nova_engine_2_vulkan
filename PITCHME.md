@@ -46,7 +46,7 @@ OpenGL
 Vulkan
 @ul[list-square-bullets text-center]
 - Vulkan 1.0 years 2015/2016
-- Matches architecture of modern platforms including mobile platforms with unified memory, tiled rendering
+- Matches architecture of modern platforms including mobile platforms
 - Explicit API - the application has direct, predictable control over the operation of the GPU
 - Multi-core friendly with multiple command buffers that can be created in pararell
 - Removing legacy requirements simplifies API design. reduces specification size and enables clear usage guidance

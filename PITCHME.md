@@ -17,7 +17,7 @@ BIO
 @ulend
 @snapend
 
----?color=linear-gradient(92deg, #444444 50%, silver 50%)
+---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]
 About OpenGL and Vulkan
@@ -43,7 +43,7 @@ Vulkan
 @ulend
 @snapend
 
----?color=linear-gradient(92deg, #444444 50%, silver 50%)
+---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
 @snap[span-100 text-pink text-13 text-bold]
 API comparision
@@ -80,7 +80,7 @@ vkEndCommandBuffer(cmd_buf);
 ```
 @snapend
 
----?color=linear-gradient(92deg, #444444 50%, silver 50%)
+---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 @snap[north span-100 text-pink text-13 text-bold]
 Let's build our "Abstraction"
 @snapend

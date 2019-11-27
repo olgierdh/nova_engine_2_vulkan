@@ -69,19 +69,19 @@ Vulkan API
 Vulkan entities ( a.k.a named states )
 @snapend
 
-@snap[east span-40 text-08]
+@snap[east span-40 text-09]
 
-@box[bg-green text-white text-08](Render Pass # Gathers setup for render targets and dependencies between them )
+@box[bg-green text-white text-09](Render Pass # Gathers setup for render targets and dependencies between them )
 
-@box[bg-blue text-white text-08](Pipeline # Describes the configuration of input data, shaders etc.)
+@box[bg-blue text-white text-09](Pipeline # Describes the configuration of input data, shaders etc.)
 
 @snapend
 
-@snap[west span-40 text-08]
+@snap[west span-40 text-09]
 
-@box[bg-orange text-white text-08](Queue # Three types of queues: Graphics, Compute, Transfer )
+@box[bg-orange text-white text-09](Queue # Three types of queues: Graphics, Compute, Transfer )
 
-@box[bg-pink text-white text-08](Command Buffer # Gathers commands to be executed on any of the Queue )
+@box[bg-pink text-white text-09](Command Buffer # Gathers commands to be executed on any of the Queue )
 
 @snapend
 

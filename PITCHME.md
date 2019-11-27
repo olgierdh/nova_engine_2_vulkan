@@ -249,8 +249,8 @@ glClearColor = setStateA
 @snap[south-east span-48 text-07]
 ```cpp
 vkAllocateCommandBuffer = createNamedStateA
-vkCreateImage = createNamedStateB
-vkCmdClearColorImage = bakeCommandBuffer
+vkCreatePipeline = createNamedStateB
+{ vkCmdClearColorImage( cmd_buf ), ... } = bakeCommandBuffer
 ```
 @snapend
 

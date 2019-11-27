@@ -69,6 +69,10 @@ Vulkan API
 Vulkan entities
 @snapend
 
+@box[bg-purple text-white](Render Pass # )
+@box[bg-purple text-white](Pipeline # )
+@box[bg-purple text-white](Command Buffer # )
+
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
 @snap[span-100 text-white bg-orange text-13 text-bold]

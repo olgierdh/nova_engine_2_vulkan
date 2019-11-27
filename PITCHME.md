@@ -297,7 +297,7 @@ Pros ( OpenGL like approach )
 @ulend
 @snapend
 
-@snap[west span-50 text-05]
+@snap[east span-50 text-05]
 Cons ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - We will have to rewrite half of the renderer

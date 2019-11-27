@@ -87,14 +87,14 @@ Vulkan entities
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[span-100 text-white bg-orange text-08 text-bold]
+@snap[north span-100 text-white bg-orange text-08 text-bold]
 Programmer API comparision
 @snapend
 
-@snap[west span-49 text-black text-bold text-05 text-center]
+@snap[west span-49 text-white text-bold text-05 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
-- glGen*/glCreate*
+- glGen\*/glCreate\*
 @ulend
 @snapend
 

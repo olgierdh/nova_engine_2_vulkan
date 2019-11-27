@@ -19,7 +19,7 @@ BIO
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[north span-100 text-gray text-13 text-bold bg-orange]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 About OpenGL and Vulkan
 @snapend
 
@@ -45,7 +45,7 @@ Vulkan
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[span-100 text-pink text-13 text-bold]
+@snap[span-100 text-white bg-orange text-13 text-bold]
 API comparision
 @snapend
 
@@ -81,7 +81,7 @@ vkEndCommandBuffer(cmd_buf);
 @snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Let's build our "Abstraction"
 @snapend
 
@@ -96,7 +96,7 @@ Vulkan
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Dilemma
 @snapend
 
@@ -105,7 +105,7 @@ Dilemma
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 The "State Based" approach
 @snapend
 
@@ -123,7 +123,7 @@ The "State Based" approach
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 The "Command Buffer" approach
 @snapend
 
@@ -141,7 +141,7 @@ The "Command Buffer" approach
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Implementation - Abstract device
 @snapend
 
@@ -171,7 +171,7 @@ public:
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Implementation - Command buffer
 @snapend
 
@@ -203,7 +203,7 @@ private:
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Implementation - Execution OpenGL
 @snapend
 
@@ -236,7 +236,7 @@ void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Implementation - Visitor
 @snapend
 
@@ -246,7 +246,7 @@ Implementation - Visitor
 
 ---?color=#444444
 
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-white text-13 text-bold bg-orange]
 Thank you!
 @snapend
 

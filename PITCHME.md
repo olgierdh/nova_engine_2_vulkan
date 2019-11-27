@@ -297,19 +297,19 @@ Let's try the "Command Buffer" approach
 Solution?
 @snapend
 
-@snap[west span-48 text-07 text-center text-white]
+@snap[west span-50 text-07 text-center text-white]
 @box[bg-pink text-white](Pros Command Buffer approach # Explicit Vulkan like API gives better control </br> Suits better other modern gfx APIs ( consoles etc. ) </br> Better performance overall Less error prone )
 @snapend
 
-@snap[south-west span-48 text-07 text-center text-white]
+@snap[south-west span-50 text-07 text-center text-white]
 @box[bg-blue text-white](Pros OpenGL like approach # We will not have to rewrite most of the renderer </br> OpenGL version will work as it has before </br> We will be able to add Vulkan gradually )
 @snapend
 
-@snap[east span-48 text-07 text-center text-black]
+@snap[east span-50 text-07 text-center text-black]
 @box[bg-pink text-white]( Cons Command Buffer approach # We will have to rewrite half of the renderer </br> We will have to make it in a separate branch and stall work on rendering part </br> We may encounter situations where OpenGL will be much more less efficient)
 @snapend
 
-@snap[south-east span-48 text-07 text-center text-black]
+@snap[south-east span-50 text-07 text-center text-black]
 @box[bg-blue text-white](Cons OpenGL like approach # Very error prone for Vulkan implementation </br> It will probably be much less efficient for Vulkan and other modern APIs)
 @snapend
 

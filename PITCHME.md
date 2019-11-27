@@ -294,6 +294,8 @@ Pros ( Command Buffer approach )
 Pros ( OpenGL like approach )
 @ul[list-square-bullets](false)
 - We will not have to rewrite most of the renderer
+- OpenGL version will work as it has before
+- We will be able to add Vulkan gradually
 @ulend
 @snapend
 
@@ -301,6 +303,7 @@ Pros ( OpenGL like approach )
 Cons ( Command Buffer approach )
 @ul[list-square-bullets](false)
 - We will have to rewrite half of the renderer
+- We will have to make it in a separate branch and stall work on rendering part
 - We may encounter situations where OpenGL will be much more less efficient
 @ulend
 @snapend
@@ -308,7 +311,7 @@ Cons ( Command Buffer approach )
 @snap[south-east span-45 text-06 text-center text-black]
 Cons ( OpenGL like approach )
 @ul[list-square-bullets](false)
-- Very error prone
+- Very error prone for Vulkan implementation
 - It will probably be much less efficient for Vulkan and other modern APIs
 @ulend
 @snapend

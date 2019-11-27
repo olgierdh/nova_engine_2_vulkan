@@ -298,39 +298,35 @@ Solution?
 @snapend
 
 @snap[west span-48 text-06 text-center text-white]
-Pros ( Command Buffer approach )
-@ul[list-square-bullets](false)
+@box[bg-pink text-white](
+Pros ( Command Buffer approach ) #
 - Explicit Vulkan like API gives better control
 - Suits better other modern gfx APIs ( consoles etc. )
 - Better performance overall
-- Less error prone
-@ulend
+- Less error prone )
 @snapend
 
 @snap[south-west span-48 text-06 text-center text-white]
-Pros ( OpenGL like approach )
-@ul[list-square-bullets](false)
+@box[bg-blue text-white](
+Pros ( OpenGL like approach ) #
 - We will not have to rewrite most of the renderer
 - OpenGL version will work as it has before
-- We will be able to add Vulkan gradually
-@ulend
+- We will be able to add Vulkan gradually)
 @snapend
 
 @snap[east span-48 text-06 text-center text-black]
-Cons ( Command Buffer approach )
-@ul[list-square-bullets](false)
+@box[bg-pink text-white](
+Cons ( Command Buffer approach ) #
 - We will have to rewrite half of the renderer
 - We will have to make it in a separate branch and stall work on rendering part
-- We may encounter situations where OpenGL will be much more less efficient
-@ulend
+- We may encounter situations where OpenGL will be much more less efficient)
 @snapend
 
 @snap[south-east span-48 text-06 text-center text-black]
-Cons ( OpenGL like approach )
-@ul[list-square-bullets](false)
+@box[bg-blue text-white](
+Cons ( OpenGL like approach ) #
 - Very error prone for Vulkan implementation
-- It will probably be much less efficient for Vulkan and other modern APIs
-@ulend
+- It will probably be much less efficient for Vulkan and other modern APIs)
 @snapend
 
 ---?color=#444444

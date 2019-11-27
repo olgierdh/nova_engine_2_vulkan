@@ -145,7 +145,7 @@ The "Command Buffer" approach
 Implementation - Abstract device
 @snapend
 
-@snap[middlepoint span-90]
+@snap[middlepoint span-70]
 ```cpp
 class abstract_device
 {

@@ -240,6 +240,34 @@ Vulkan
 ![PLATE](assets/vulkan_states.png)
 @snapend
 
+@snap[south-west span-40 text-07]
+```cpp
+class renderer_old
+{
+    uint32 get_layer_id(
+        shash64 name ) const;
+    void push( sint32 direct_id,
+        const direct_element& element );
+    void push( sint32 layer_id,
+        const layer_command& command );
+};
+```
+@snapend
+
+@snap[south-east span-40 text-07]
+```cpp
+class device_old
+{
+    virtual program create_program() = 0;
+    virtual buffer  create_buffer() = 0;
+    virtual texture create_texture() = 0;
+    virtual void bind(program) = 0;
+    virtual void bind(texture) = 0;
+    virtual void bind(buffer) = 0;
+};
+```
+@snapend
+
 ---?color=#444444
 @snap[north span-100 text-white text-08 text-bold bg-orange]
 Let's try to fit into existing architecture - OpenGL like API

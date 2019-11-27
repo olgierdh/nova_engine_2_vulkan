@@ -17,13 +17,13 @@ BIO
 @ulend
 @snapend
 
----?color=linear-gradient(90deg, #444444 45%, silver 55%)
+---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
 @snap[north span-100 text-pink text-13 text-bold]
 About OpenGL and Vulkan
 @snapend
 
-@snap[west span-50 text-white text-bold text-07 text-center]
+@snap[west span-55 text-white text-bold text-07 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
 - OpenGL 1.0 year 1992
@@ -33,7 +33,7 @@ OpenGL
 @ulend
 @snapend
 
-@snap[east span-50 text-black text-bold text-07 text-center]
+@snap[east span-45 text-black text-bold text-07 text-center]
 Vulkan
 @ul[list-square-bullets text-center]
 - Vulkan 1.0 years 2015/2016

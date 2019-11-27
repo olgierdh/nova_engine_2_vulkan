@@ -178,7 +178,7 @@ Our architecture before porting to Vulkan
 
 @snap[west span-40 text-09]
 
-@box[bg-green text-white text-09](Renderer class # Handles high level functionality like: adding/updating - lights, particle emitters, handling render layers their data and ordering )
+@box[bg-green text-white text-09](Renderer class # Handles higher level functionality like: handling render layers their data and ordering )
 
 @snapend
 
@@ -190,11 +190,11 @@ Our architecture before porting to Vulkan
 
 @snap[south-west span-50 text-04]
 ```cpp
-class device_old
+class renderer_old
 {
-virtual program create_program = 0;
-virtual buffer  create_buffer() = 0;
-virtual texture create_texture() = 0;
+    uint32 get_layer_id( shash64 name ) const;
+    void push( sint32 direct_id, const direct_element& element );
+    void push( sint32 layer_id, const layer_command& command );
 };
 ```
 @snapend
@@ -203,9 +203,12 @@ virtual texture create_texture() = 0;
 ```cpp
 class device_old
 {
-virtual program create_program = 0;
-virtual buffer  create_buffer() = 0;
-virtual texture create_texture() = 0;
+    virtual program create_program() = 0;
+    virtual buffer  create_buffer() = 0;
+    virtual texture create_texture() = 0;
+    virtual void bind(program) = 0;
+    virtual void bind(texture) = 0;
+    virtual void bind(buffer) = 0;
 };
 ```
 @snapend

@@ -29,7 +29,7 @@ What is rendering engine?
 About OpenGL and Vulkan
 @snapend
 
-@snap[west span-45 text-white text-bold text-07 text-center]
+@snap[west span-45 text-white text-bold text-06 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
 - OpenGL 1.0 year 1992
@@ -42,7 +42,7 @@ OpenGL
 @ulend
 @snapend
 
-@snap[east span-45 text-black text-bold text-07 text-center]
+@snap[east span-45 text-black text-bold text-06 text-center]
 Vulkan
 @ul[list-square-bullets text-center]
 - Vulkan 1.0 years 2015/2016

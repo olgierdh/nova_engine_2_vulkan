@@ -326,7 +326,22 @@ void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
 
 ---?color=#444444
 @snap[north span-100 text-white text-8 text-bold bg-orange]
-Implementation - Visitor
+Summary
+@snapend
+
+@snap[middlepoint span-100 text-white text-bold text-05 text-center]
+@ul[list-square-bullets text-center]
+- Implementation of our engine bacame very explicit and straightforward
+- Thanks to command buffer abstraction we are able to divide operations such as memory transfers from rendering, we can execute them separately
+- We are able to render frames ahead or process different parts of frames simultaneously
+- We've fixed many issues related to rendering that were hidden
+- Performance of OpenGL got increased by 10% on average comparing to previous "direct" approach
+@ulend
+@snapend
+
+---?color=#444444
+@snap[north span-100 text-white text-8 text-bold bg-orange]
+Bonus! Implementation - Visitor
 @snapend
 
 @snap[middlepoint span-100]

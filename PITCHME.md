@@ -196,7 +196,7 @@ Vulkan
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 The "State Based" approach
 @snapend
 

@@ -33,7 +33,7 @@ Responsible for:
 @snapend
 
 @snap[west span-45 text-07]
-@box[bg-purple text-white](Rendering engine is a small real time operating system that main task is to produce images with stable framerate)
+@box[bg-purple text-white](Rendering engine is a computer software with architecture similar to simple real time operating system that main task is to present given scene in a form of an image with stable framerate.)
 @snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)

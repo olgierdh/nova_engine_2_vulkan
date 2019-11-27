@@ -65,7 +65,7 @@ Vulkan API
 
 ---?color=#444444
 
-@snap[north span-50 text-white bg-orange text-8 text-bold]
+@snap[north span-50 text-white bg-orange text-8 text-bold text-left]
 Vulkan entities ( a.k.a named states )
 @snapend
 

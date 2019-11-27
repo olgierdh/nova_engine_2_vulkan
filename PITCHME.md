@@ -214,7 +214,7 @@ The "State Based" approach
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 The "Command Buffer" approach
 @snapend
 
@@ -232,7 +232,7 @@ The "Command Buffer" approach
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Implementation - Abstract device
 @snapend
 
@@ -262,7 +262,7 @@ public:
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Implementation - Command buffer
 @snapend
 
@@ -294,7 +294,7 @@ private:
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Implementation - Execution OpenGL
 @snapend
 
@@ -327,7 +327,7 @@ void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Summary
 @snapend
 
@@ -342,7 +342,7 @@ Summary
 @snapend
 
 ---?color=#444444
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Bonus! Implementation - Visitor
 @snapend
 
@@ -352,7 +352,7 @@ Bonus! Implementation - Visitor
 
 ---?color=#444444
 
-@snap[north span-100 text-white text-8 text-bold bg-orange]
+@snap[north span-100 text-white text-08 text-bold bg-orange]
 Thank you!
 @snapend
 

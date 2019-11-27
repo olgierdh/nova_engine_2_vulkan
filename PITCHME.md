@@ -250,7 +250,8 @@ glClearColor = setStateA
 ```cpp
 vkAllocateCommandBuffer = createNamedStateA
 vkCreatePipeline = createNamedStateB
-{ vkCmdClearColorImage( cmd_buf ), ... } = bakeCommandBuffer
+{ vkCmdClearColorImage( cmd_buf ), ... }
+    = bakeCommandBuffer
 ```
 @snapend
 

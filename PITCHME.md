@@ -21,7 +21,7 @@ BIO
 
 @snap[span-100 text-white bg-orange text-13 text-bold]
 What is rendering engine?
-@endsnap
+@snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 

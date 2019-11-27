@@ -240,13 +240,13 @@ Vulkan
 ![PLATE](assets/vulkan_states.png)
 @snapend
 
-@snap[south-west span-40 text-07]
+@snap[south-west span-48 text-07]
 ```cpp
 glClearColor = setState
 ```
 @snapend
 
-@snap[south-east span-40 text-07]
+@snap[south-east span-48 text-07]
 ```cpp
 vkAllocateCommandBuffer = createNamedStateA
 vkCreateImage = createNamedStateB

@@ -33,8 +33,11 @@ About OpenGL and Vulkan
 OpenGL
 @ul[list-square-bullets text-center]
 - OpenGL 1.0 year 1992
-- Driver responsibility and overhead: high
-- API: getters and setters for global state
+- Originally architected for graphics workstations
+- Driver does lots of work: state validation, dependency tracking, error checking
+- Threading model doesn't enable generation of graphics commands in pararell to command execution
+- Syntax evolved over twenty years - complex API choices can obscure optimal performance path
+- Shader language compiler built into driver, Only GLSL supported. Have to ship shader source
 - Debugging: get-last-error approach, verification during execution
 @ulend
 @snapend
@@ -43,9 +46,12 @@ OpenGL
 Vulkan
 @ul[list-square-bullets text-center]
 - Vulkan 1.0 years 2015/2016
-- Driver responsibility and overhead: low
-- API: still functions but operates on entities such as device, queue or command buffer ( entity based )
-- Dubugging: special debug layers, verification only through debug layers
+- Matches architecture of modern platforms including mobile platforms with unified memory, tiled rendering
+- Explicit API - the application has direct, predictable control over the operation of the GPU
+- Multi-core friendly with multiple command buffers that can be created in pararell
+- Removing legacy requirements simplifies API design. reduces specification size and enables clear usage guidance
+- SPIR-V as compiler target simplifies driver and enables front-end language flexibility and reliability
+- Debugging: multiple debug layers, verification through degub layers much more detailed information about origin of the error
 @ulend
 @snapend
 

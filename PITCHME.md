@@ -19,11 +19,11 @@ BIO
 
 ---?color=#444444
 
-@snap[north span-100 text-white bg-orange text-13 text-bold]
+@snap[north span-100 text-white bg-orange text-08 text-bold]
 What is rendering engine?
 @snapend
 
-@snap[east span-45 text-07 text-white]
+@snap[east span-45 text-07 text-white text-center]
 Responsible for:
 @ul[list-square-bullets text-silver]
 - preparing scene data to display

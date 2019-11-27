@@ -19,7 +19,7 @@ BIO
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)
 
-@snap[north span-100 text-pink text-13 text-bold]
+@snap[north span-100 text-pink text-13 text-bold bg-gray]
 About OpenGL and Vulkan
 @snapend
 

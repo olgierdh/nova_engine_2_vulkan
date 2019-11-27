@@ -95,7 +95,7 @@ Vulkan
 ![PLATE](assets/vulkan_states.png)
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 Dilemma
 @snapend
@@ -104,7 +104,7 @@ Dilemma
 ![PLATE](assets/fit.png)
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 The "State Based" approach
 @snapend
@@ -122,7 +122,7 @@ The "State Based" approach
 ![PLATE](assets/state_based_approach.png)
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 The "Command Buffer" approach
 @snapend
@@ -140,7 +140,7 @@ The "Command Buffer" approach
 ![PLATE](assets/cmdbuf_based_approach.png)
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 Implementation - Abstract device
 @snapend
@@ -169,7 +169,7 @@ class abstract_device
 ```
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 Implementation - Command buffer
 @snapend
@@ -201,7 +201,7 @@ private:
 ```
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 Implementation - Execution OpenGL
 @snapend
@@ -234,7 +234,7 @@ void gl_device::add_command_buffer_to_execution_queue( command_buffer cb )
 ```
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 @snap[north span-100 text-pink text-13 text-bold]
 Implementation - Visitor
 @snapend
@@ -243,7 +243,7 @@ Implementation - Visitor
 [Visitor Implementation](https://godbolt.org/z/VM_haa)
 @snapend
 
----?color=#444444 50%
+---?color=#444444
 
 @snap[north span-100 text-pink text-13 text-bold]
 Thank you!

@@ -188,15 +188,26 @@ Our architecture before porting to Vulkan
 
 @snapend
 
-@snap[south span-100 text-08]
+@snap[south-west span-50 text-04]
 ```cpp
 class device_old
 {
-    virtual program create_program( context* ctx, shader vs, shader fs ) = 0;
-    virtual buffer  create_buffer( buffer_type type, buffer_hint hint ) = 0;
-    virtual texture create_texture( texture_type type, pixel_format format ) = 0;
+virtual program create_program = 0;
+virtual buffer  create_buffer() = 0;
+virtual texture create_texture() = 0;
 };
 ```
+
+@snap[south-east span-50 text-04]
+```cpp
+class device_old
+{
+virtual program create_program = 0;
+virtual buffer  create_buffer() = 0;
+virtual texture create_texture() = 0;
+};
+```
+
 @snapend
 
 ---?color=#444444

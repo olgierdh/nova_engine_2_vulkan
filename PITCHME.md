@@ -298,7 +298,7 @@ Solution?
 @snapend
 
 @snap[west span-50 text-07 text-center text-white]
-@box[bg-pink text-white](Pros Command Buffer approach # Explicit Vulkan like API gives better control </br> Suits better other modern gfx APIs ( consoles etc. ) </br> Better performance overall Less error prone )
+@box[bg-pink text-white](Pros Command Buffer approach # Explicit Vulkan like API gives better control </br> Suits better other modern gfx APIs (consoles etc.) </br> Better performance overall Less error prone )
 @snapend
 
 @snap[south-west span-50 text-07 text-center text-white]

@@ -192,9 +192,12 @@ Our architecture before porting to Vulkan
 ```cpp
 class renderer_old
 {
-    uint32 get_layer_id( shash64 name ) const;
-    void push( sint32 direct_id, const direct_element& element );
-    void push( sint32 layer_id, const layer_command& command );
+    uint32 get_layer_id(
+        shash64 name ) const;
+    void push( sint32 direct_id,
+        const direct_element& element );
+    void push( sint32 layer_id,
+        const layer_command& command );
 };
 ```
 @snapend

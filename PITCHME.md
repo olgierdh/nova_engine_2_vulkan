@@ -19,8 +19,21 @@ BIO
 
 ---?color=#444444
 
-@snap[span-100 text-white bg-orange text-13 text-bold]
+@snap[north span-100 text-white bg-orange text-13 text-bold]
 What is rendering engine?
+@snapend
+
+@snap[east span-100 text-07 text-gray]
+Responsible for:
+@ul[list-square-bullets text-silver]
+- preparing scene data to display
+- managing resources such as: textures, geometry, shaders
+- communication with GFX API
+@ulend
+@snapend
+
+@snap[east span-100 text-07 text-gray]
+@box[bg-purple text-white](Rendering engine is a small real time operating system that main task is to produce images with stable framerate)
 @snapend
 
 ---?color=linear-gradient(90deg, #444444 50%, silver 50%)

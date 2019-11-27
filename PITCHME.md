@@ -32,7 +32,7 @@ Responsible for:
 @ulend
 @snapend
 
-@snap[east span-50 text-07 text-gray]
+@snap[west span-50 text-07 text-gray]
 @box[bg-purple text-white](Rendering engine is a small real time operating system that main task is to produce images with stable framerate)
 @snapend
 

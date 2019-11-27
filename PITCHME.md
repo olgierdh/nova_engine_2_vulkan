@@ -107,6 +107,8 @@ Programmer API comparision
 @snap[west span-49 text-white text-bold text-06 text-center]
 OpenGL
 @ul[list-square-bullets text-center]
+- Functions executed without explicit context
+- Functions ordering matter!
 - Functions for managing resources
     - glCreate/glGen
 - Functions for setting values
@@ -118,7 +120,7 @@ OpenGL
 @snap[east span-49 text-black text-bold text-06 text-center]
 Vulkan
 @ul[list-square-bullets text-center]
-- Functions that operates on three different levels
+- Functions operates on three different levels
     - device level
     - command buffer level
     - queue level

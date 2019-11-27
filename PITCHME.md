@@ -79,7 +79,7 @@ Vulkan API
 ---?color=#444444
 
 @snap[north span-100 text-white bg-orange text-08 text-bold]
-Vulkan entities
+Vulkan entities we care
 @snapend
 
 @snap[east span-40 text-09]

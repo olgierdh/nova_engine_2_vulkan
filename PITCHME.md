@@ -178,7 +178,7 @@ Our architecture before porting to Vulkan
 
 @snap[west span-40 text-09]
 
-@box[bg-green text-white text-09](Renderer class # Handles high level functionality like: adding/updating - lights, particle emitters, handling render layers and their ordering )
+@box[bg-green text-white text-09](Renderer class # Handles high level functionality like: adding/updating - lights, particle emitters, handling render layers their data and ordering )
 
 @snapend
 

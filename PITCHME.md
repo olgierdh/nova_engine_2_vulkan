@@ -188,7 +188,7 @@ Our architecture before porting to Vulkan
 
 @snapend
 
-@snap[south-west span-50 text-04]
+@snap[south-west span-50 text-06]
 ```cpp
 class renderer_old
 {
@@ -199,7 +199,7 @@ class renderer_old
 ```
 @snapend
 
-@snap[south-east span-50 text-04]
+@snap[south-east span-50 text-06]
 ```cpp
 class device_old
 {

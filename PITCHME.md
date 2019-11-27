@@ -64,7 +64,7 @@ Vulkan
 - Multi-core friendly with multiple command buffers that can be created in pararell
 - Removing legacy requirements simplifies API design. reduces specification size and enables clear usage guidance
 - SPIR-V as compiler target simplifies driver and enables front-end language flexibility and reliability
-- Debugging: multiple debug layers, verification through degub layers much more detailed information about origin of the error
+- Debugging: multiple debug layers, verification through debug layers much more detailed information about origin of the error
 @ulend
 @snapend
 

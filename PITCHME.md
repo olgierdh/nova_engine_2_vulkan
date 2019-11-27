@@ -173,6 +173,24 @@ vkEndCommandBuffer(cmd_buf);
 
 ---?color=#444444
 @snap[north span-100 text-white text-8 text-bold bg-orange]
+Our architecture before porting to Vulkan
+@snapend
+
+@snap[east span-40 text-09]
+
+@box[bg-green text-white text-09](Renderer class # Handles high level functionality like: adding/updating - lights, particle emitters, handling render layers and their ordering )
+
+@snapend
+
+@snap[east-south span-40 text-09]
+
+@box[bg-blue text-white text-09](Device class # Handles low level functionality like: creating/releasing resources - textures, programs, buffers etc. )
+
+@snapend
+
+
+---?color=#444444
+@snap[north span-100 text-white text-8 text-bold bg-orange]
 Dilemma
 @snapend
 

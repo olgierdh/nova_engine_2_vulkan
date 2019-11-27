@@ -176,13 +176,13 @@ vkEndCommandBuffer(cmd_buf);
 Our architecture before porting to Vulkan
 @snapend
 
-@snap[east span-40 text-09]
+@snap[west span-40 text-09]
 
 @box[bg-green text-white text-09](Renderer class # Handles high level functionality like: adding/updating - lights, particle emitters, handling render layers and their ordering )
 
 @snapend
 
-@snap[east-south span-40 text-09]
+@snap[east span-40 text-09]
 
 @box[bg-blue text-white text-09](Device class # Handles low level functionality like: creating/releasing resources - textures, programs, buffers etc. )
 
